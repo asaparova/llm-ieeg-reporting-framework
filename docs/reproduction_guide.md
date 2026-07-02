@@ -743,24 +743,6 @@ src/llm/version_X/sub-HUPXXX/
 
 ---
 
-# Recommended Validation Checklist
-
-Before sharing or archiving the repository, check:
-
-- [ ] Repository is private if data/code access should be restricted.
-- [ ] No raw clinical data is committed.
-- [ ] No trained model checkpoints are committed unless intentionally shared.
-- [ ] No `.env` files or API keys are committed.
-- [ ] No `__pycache__` folders are committed.
-- [ ] No `.pyc` files are committed.
-- [ ] `data/README.md` explains where datasets are stored.
-- [ ] `models/README.md` explains where checkpoints are stored.
-- [ ] `src/llm/README.md` explains all LLM versions.
-- [ ] `docs/reproduction_guide.md` explains how to reproduce results.
-- [ ] `LICENSE.md`, `NOTICE.md`, and `CITATION.cff` are included.
-
----
-
 # Authorship and Citation
 
 Unless explicitly stated otherwise, all original code, prompts, schemas, reports, figures, and documentation were developed by **Azhar Saparova** as part of the MSc thesis project.
