@@ -20,30 +20,6 @@ The project uses three main datasets:
 
 ---
 
-## Expected Local Data Structure
-
-After downloading or receiving access to the datasets, organize them locally as follows:
-
-```text
-data/
-  raw/
-    openneuro_ds003498/
-    swec_ethz/
-    hup/
-
-  processed/
-    openneuro_ds003498/
-    swec_ethz/
-    hup/
-
-  external_links.md
-  checksums.sha256
-```
-
-The `raw/` and `processed/` folders are intentionally ignored by Git and should not be pushed to GitHub.
-
----
-
 ## External Data Links
 
 Add dataset and processed-data links in:
@@ -61,19 +37,19 @@ Recommended format:
 
 ### OpenNeuro ds003498
 
-- Source: <ADD_LINK_HERE>
+- Source: https://openneuro.org/datasets/ds003498/versions/1.1.1
 - Access notes: <ADD_ACCESS_NOTES_HERE>
 - Used for: Initial HFO detection experiments
 
 ### SWEC-ETHZ
 
-- Source: <ADD_LINK_HERE>
+- Source: http://ieeg-swez.ethz.ch/
 - Access notes: <ADD_ACCESS_NOTES_HERE>
 - Used for: Initial seizure detection experiments
 
 ### HUP Dataset
 
-- Source / storage: <ADD_RESTRICTED_LINK_HERE>
+- Source: [<ADD_RESTRICTED_LINK_HERE>](https://openneuro.org/datasets/ds004100/versions/1.1.1)
 - Access notes: <ADD_ACCESS_NOTES_HERE>
 - Used for: Final HFO detection, seizure detection, and LLM case studies
 
@@ -195,94 +171,4 @@ depending on the LLM version.
 
 ---
 
-## Files That Should Not Be Committed
 
-Do not commit raw biomedical signals, large arrays, trained model checkpoints, or local environment files.
-
-Examples:
-
-```text
-*.edf
-*.fif
-*.mat
-*.npy
-*.npz
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.pt
-*.pth
-*.ckpt
-*.onnx
-.env
-```
-
-These files should be stored externally.
-
----
-
-## Files That May Be Committed
-
-Small derived files may be committed if they do not violate dataset restrictions and do not contain sensitive information.
-
-Examples:
-
-```text
-*_hfo_subject_summary_for_llm.json
-*_seizure_summary_for_llm.json
-*_compact_case.json
-*_master_case.json
-*_reasoning_validated.json
-*_final_report.md
-*_final_report.txt
-```
-
-Before committing derived files, confirm that they do not contain restricted or identifiable patient information.
-
----
-
-## Checksums
-
-If external data packages are shared, add checksums to:
-
-```text
-data/checksums.sha256
-```
-
-Example format:
-
-```text
-<sha256_hash>  processed_hup_llm_inputs.zip
-<sha256_hash>  trained_seizure_model_checkpoint.pt
-<sha256_hash>  hfo_processed_outputs.zip
-```
-
-To generate a checksum on Windows Git Bash:
-
-```bash
-sha256sum file_name.zip
-```
-
----
-
-## Notes on Access
-
-Some datasets may require permission, institutional access, or agreement with dataset-use conditions.
-
-If a dataset cannot be redistributed, this repository should only provide:
-
-- dataset name;
-- original source;
-- access instructions;
-- expected local folder structure;
-- scripts/notebooks for processing after access is obtained.
-
----
-
-## Contact
-
-For questions about dataset organization, processed outputs, or reproduction of the thesis results, contact:
-
-**Azhar Saparova**  
-MSc Robotics, Nazarbayev University, 2026
