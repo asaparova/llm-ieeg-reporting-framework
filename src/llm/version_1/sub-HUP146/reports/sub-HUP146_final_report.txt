@@ -1,0 +1,48 @@
+**System Summary**  
+- Supports patient-level fusion: **True**  
+- HFO channel-level evidence available: **True**  
+- Seizure channel-level evidence available: **False**  
+- Direct HFO-seizure channel concordance supported: **False**  
+- Recommended interpretation mode: **Limited**  
+- System confidence: **Limited** (due to absence of seizure channel-level evidence and inability to establish direct HFO-seizure concordance).  
+
+---
+
+**HFO Module Summary**  
+- **Strong consensus channels**: LG8, RC5 (high agreement across analyses).  
+- **Moderate consensus channels**: RI11, RJ5, LG7, LG5, LG4 (lower agreement but still notable).  
+- **Key findings**:  
+  - LG8 and RC5 show robust HFO activity (elevated rates and consistent patterns).  
+  - RI11, RJ5, LG7, LG5, and LG4 exhibit moderate HFO activity with variable consistency.  
+- **Limitation**: Direct HFO-seizure channel concordance **cannot be established** due to lack of seizure channel-level evidence.  
+
+---
+
+**Seizure Module Summary**  
+- **Ictal run**: Detected with 142 true ictal windows and 178 true nonictal windows (75.6% predicted positive).  
+- **Interictal run**: High false-positive burden (297 predicted positive windows out of 298 total).  
+- **Key findings**:  
+  - Seizure detection algorithm shows significant interictal false positives, reducing confidence in seizure-channel associations.  
+  - Ictal activity is localized to specific time windows (e.g., 2.0–262.5 seconds).  
+- **Limitation**: No channel-level seizure onset or spread evidence is provided.  
+
+---
+
+**Integration Constraints**  
+- Seizure JSON lacks channel-level onset or spread evidence.  
+- Direct HFO-seizure channel concordance **cannot be established** without seizure channel-level data.  
+- HFO findings can be compared with seizure run behavior at the **subject level**, but **no spatial overlap claims** can be made.  
+
+---
+
+**Overall Interpretation**  
+- Strong HFO consensus on **LG8** and **RC5**; moderate consensus on **RI11**, **RJ5**, **LG7**, **LG5**, and **LG4**.  
+- Seizure detection has a **high interictal false-positive burden**, limiting confidence in direct HFO-seizure channel associations.  
+- No channel-level seizure onset or spread evidence is available to support spatial overlap claims.  
+
+---
+
+**Limitations**  
+1. Seizure channel-level evidence is **unavailable**.  
+2. Direct HFO-seizure channel concordance **cannot be established** due to missing data.  
+3. High interictal false-positive burden in seizure detection further reduces confidence in associations.

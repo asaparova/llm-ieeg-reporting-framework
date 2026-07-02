@@ -1,0 +1,662 @@
+{
+  "subject_id": "sub-HUP146",
+  "module": "hfo_detection",
+  "dataset": "HUP",
+  "input_type": "preprocessed_or_ready_detector_outputs",
+  "detector_modes_present": [
+    "strict"
+  ],
+  "sampling_frequency_hz_values": [
+    1024.0
+  ],
+  "n_runs": 2,
+  "run_ids": [
+    "01",
+    "02"
+  ],
+  "overall_summary": {
+    "total_epochs_used": 89,
+    "total_ripple_events": 52,
+    "total_fr_events": 246,
+    "total_frandr_pairs": 18,
+    "total_rejected_burst_rows": 0
+  },
+  "strict_rules": {
+    "z_thresh_ripple": 5.5,
+    "z_thresh_fr": 6.0,
+    "min_dur_ms_ripple": 8.0,
+    "min_dur_ms_fr": 8.0,
+    "max_dur_ms_ripple": 120.0,
+    "max_dur_ms_fr": 80.0,
+    "min_cycles_ripple": 4,
+    "min_cycles_fr": 4,
+    "frandr_ms": 25.0,
+    "max_fr_events_per_channel_epoch": 12
+  },
+  "consensus_summary": {
+    "n_runs_aggregated": 2,
+    "strong_consensus_channels": [
+      "LG8",
+      "RC5"
+    ],
+    "moderate_consensus_channels": [
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "single_run_only_channels": [
+      "LG6",
+      "RI10",
+      "LG3",
+      "RG8",
+      "RA2",
+      "LG2",
+      "RG6"
+    ]
+  },
+  "aggregated_channel_evidence": [
+    {
+      "channel": "LG8",
+      "fr_rate_mean": 7.17678633146498,
+      "fr_rate_max": 9.121781597968354,
+      "frandr_rate_mean": 1.2679399522142245,
+      "frandr_rate_max": 1.9203750732564955,
+      "fr_runs_present": [
+        "01",
+        "02"
+      ],
+      "frandr_runs_present": [
+        "01",
+        "02"
+      ],
+      "appears_in_top_fr_runs": 2,
+      "appears_in_top_frandr_runs": 2,
+      "appears_in_fr_area_95p_runs": 2,
+      "appears_in_frandr_area_95p_runs": 1,
+      "fr_rates_per_run": {
+        "01": 9.121781597968354,
+        "02": 5.231791064961606
+      },
+      "frandr_rates_per_run": {
+        "01": 1.9203750732564955,
+        "02": 0.6155048311719536
+      },
+      "fr_counts_per_run": {
+        "01": 38,
+        "02": 17
+      },
+      "frandr_counts_per_run": {
+        "01": 8,
+        "02": 2
+      }
+    },
+    {
+      "channel": "RC5",
+      "fr_rate_mean": 3.9546185402798026,
+      "fr_rate_max": 4.308533818203676,
+      "frandr_rate_mean": 0.8216989496145581,
+      "frandr_rate_max": 0.9232572467579305,
+      "fr_runs_present": [
+        "01",
+        "02"
+      ],
+      "frandr_runs_present": [
+        "01",
+        "02"
+      ],
+      "appears_in_top_fr_runs": 2,
+      "appears_in_top_frandr_runs": 2,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 1,
+      "fr_rates_per_run": {
+        "01": 3.600703262355929,
+        "02": 4.308533818203676
+      },
+      "frandr_rates_per_run": {
+        "01": 0.7201406524711859,
+        "02": 0.9232572467579305
+      },
+      "fr_counts_per_run": {
+        "01": 15,
+        "02": 14
+      },
+      "frandr_counts_per_run": {
+        "01": 3,
+        "02": 3
+      }
+    },
+    {
+      "channel": "RI11",
+      "fr_rate_mean": 5.761125219769487,
+      "fr_rate_max": 5.761125219769487,
+      "frandr_rate_mean": 0.24004688415706193,
+      "frandr_rate_max": 0.24004688415706193,
+      "fr_runs_present": [
+        "01"
+      ],
+      "frandr_runs_present": [
+        "01"
+      ],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 1,
+      "appears_in_fr_area_95p_runs": 1,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 5.761125219769487
+      },
+      "frandr_rates_per_run": {
+        "01": 0.24004688415706193
+      },
+      "fr_counts_per_run": {
+        "01": 24
+      },
+      "frandr_counts_per_run": {
+        "01": 1
+      }
+    },
+    {
+      "channel": "RJ5",
+      "fr_rate_mean": 2.2958330202713872,
+      "fr_rate_max": 3.3606563781988674,
+      "frandr_rate_mean": 0.24004688415706193,
+      "frandr_rate_max": 0.24004688415706193,
+      "fr_runs_present": [
+        "01",
+        "02"
+      ],
+      "frandr_runs_present": [
+        "01"
+      ],
+      "appears_in_top_fr_runs": 2,
+      "appears_in_top_frandr_runs": 1,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 3.3606563781988674,
+        "02": 1.2310096623439073
+      },
+      "frandr_rates_per_run": {
+        "01": 0.24004688415706193
+      },
+      "fr_counts_per_run": {
+        "01": 14,
+        "02": 4
+      },
+      "frandr_counts_per_run": {
+        "01": 1
+      }
+    },
+    {
+      "channel": "LG7",
+      "fr_rate_mean": 2.2281274888424725,
+      "fr_rate_max": 3.840750146512991,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "01",
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 2,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 3.840750146512991,
+        "02": 0.6155048311719536
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "01": 16,
+        "02": 2
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "LG5",
+      "fr_rate_mean": 1.5941575127353602,
+      "fr_rate_max": 2.8805626098847434,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "01",
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 2,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 2.8805626098847434,
+        "02": 0.3077524155859768
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "01": 12,
+        "02": 1
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "LG4",
+      "fr_rate_mean": 0.9940403023427052,
+      "fr_rate_max": 1.6803281890994337,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "01",
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 2,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 1.6803281890994337,
+        "02": 0.3077524155859768
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "01": 7,
+        "02": 1
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "LG6",
+      "fr_rate_mean": 1.9203750732564955,
+      "fr_rate_max": 1.9203750732564955,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "01"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 1.9203750732564955
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "01": 8
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "RI10",
+      "fr_rate_mean": 1.9203750732564955,
+      "fr_rate_max": 1.9203750732564955,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "01"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 1.9203750732564955
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "01": 8
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "LG3",
+      "fr_rate_mean": 1.6803281890994337,
+      "fr_rate_max": 1.6803281890994337,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "01"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "01": 1.6803281890994337
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "01": 7
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "RG8",
+      "fr_rate_mean": 0.6155048311719536,
+      "fr_rate_max": 0.6155048311719536,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "02": 0.6155048311719536
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "02": 2
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "RA2",
+      "fr_rate_mean": 0.6155048311719536,
+      "fr_rate_max": 0.6155048311719536,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "02": 0.6155048311719536
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "02": 2
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "LG2",
+      "fr_rate_mean": 0.3077524155859768,
+      "fr_rate_max": 0.3077524155859768,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "02": 0.3077524155859768
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "02": 1
+      },
+      "frandr_counts_per_run": {}
+    },
+    {
+      "channel": "RG6",
+      "fr_rate_mean": 0.3077524155859768,
+      "fr_rate_max": 0.3077524155859768,
+      "frandr_rate_mean": 0.0,
+      "frandr_rate_max": 0.0,
+      "fr_runs_present": [
+        "02"
+      ],
+      "frandr_runs_present": [],
+      "appears_in_top_fr_runs": 1,
+      "appears_in_top_frandr_runs": 0,
+      "appears_in_fr_area_95p_runs": 0,
+      "appears_in_frandr_area_95p_runs": 0,
+      "fr_rates_per_run": {
+        "02": 0.3077524155859768
+      },
+      "frandr_rates_per_run": {},
+      "fr_counts_per_run": {
+        "02": 1
+      },
+      "frandr_counts_per_run": {}
+    }
+  ],
+  "run_summaries": [
+    {
+      "subject": "sub-HUP146",
+      "run": "01",
+      "sampling_frequency_hz": 1024.0,
+      "detector_mode": "strict",
+      "strict_rules": {
+        "z_thresh_ripple": 5.5,
+        "z_thresh_fr": 6.0,
+        "min_dur_ms_ripple": 8.0,
+        "min_dur_ms_fr": 8.0,
+        "max_dur_ms_ripple": 120.0,
+        "max_dur_ms_fr": 80.0,
+        "min_cycles_ripple": 4,
+        "min_cycles_fr": 4,
+        "frandr_ms": 25.0,
+        "max_fr_events_per_channel_epoch": 12
+      },
+      "n_epochs_used": 50,
+      "ripple_events": 31,
+      "fr_events": 199,
+      "frandr_pairs": 13,
+      "n_rejected_burst_rows": 0,
+      "top_fr_channels": [
+        {
+          "channel": "LG8",
+          "band": "fr",
+          "count": 38,
+          "rate_per_min": 9.121781597968354
+        },
+        {
+          "channel": "RI11",
+          "band": "fr",
+          "count": 24,
+          "rate_per_min": 5.761125219769487
+        },
+        {
+          "channel": "LG7",
+          "band": "fr",
+          "count": 16,
+          "rate_per_min": 3.840750146512991
+        },
+        {
+          "channel": "RC5",
+          "band": "fr",
+          "count": 15,
+          "rate_per_min": 3.600703262355929
+        },
+        {
+          "channel": "RJ5",
+          "band": "fr",
+          "count": 14,
+          "rate_per_min": 3.3606563781988674
+        },
+        {
+          "channel": "LG5",
+          "band": "fr",
+          "count": 12,
+          "rate_per_min": 2.8805626098847434
+        },
+        {
+          "channel": "LG6",
+          "band": "fr",
+          "count": 8,
+          "rate_per_min": 1.9203750732564955
+        },
+        {
+          "channel": "RI10",
+          "band": "fr",
+          "count": 8,
+          "rate_per_min": 1.9203750732564955
+        },
+        {
+          "channel": "LG3",
+          "band": "fr",
+          "count": 7,
+          "rate_per_min": 1.6803281890994337
+        },
+        {
+          "channel": "LG4",
+          "band": "fr",
+          "count": 7,
+          "rate_per_min": 1.6803281890994337
+        }
+      ],
+      "top_frandr_channels": [
+        {
+          "channel": "LG8",
+          "band": "frandr",
+          "count": 8,
+          "rate_per_min": 1.9203750732564955
+        },
+        {
+          "channel": "RC5",
+          "band": "frandr",
+          "count": 3,
+          "rate_per_min": 0.7201406524711859
+        },
+        {
+          "channel": "RI11",
+          "band": "frandr",
+          "count": 1,
+          "rate_per_min": 0.24004688415706193
+        },
+        {
+          "channel": "RJ5",
+          "band": "frandr",
+          "count": 1,
+          "rate_per_min": 0.24004688415706193
+        }
+      ],
+      "fr_area_channels_95p": [
+        "LG8",
+        "RI11"
+      ],
+      "frandr_area_channels_95p": [
+        "LG8"
+      ]
+    },
+    {
+      "subject": "sub-HUP146",
+      "run": "02",
+      "sampling_frequency_hz": 1024.0,
+      "detector_mode": "strict",
+      "strict_rules": {
+        "z_thresh_ripple": 5.5,
+        "z_thresh_fr": 6.0,
+        "min_dur_ms_ripple": 8.0,
+        "min_dur_ms_fr": 8.0,
+        "max_dur_ms_ripple": 120.0,
+        "max_dur_ms_fr": 80.0,
+        "min_cycles_ripple": 4,
+        "min_cycles_fr": 4,
+        "frandr_ms": 25.0,
+        "max_fr_events_per_channel_epoch": 12
+      },
+      "n_epochs_used": 39,
+      "ripple_events": 21,
+      "fr_events": 47,
+      "frandr_pairs": 5,
+      "n_rejected_burst_rows": 0,
+      "top_fr_channels": [
+        {
+          "channel": "LG8",
+          "band": "fr",
+          "count": 17,
+          "rate_per_min": 5.231791064961606
+        },
+        {
+          "channel": "RC5",
+          "band": "fr",
+          "count": 14,
+          "rate_per_min": 4.308533818203676
+        },
+        {
+          "channel": "RJ5",
+          "band": "fr",
+          "count": 4,
+          "rate_per_min": 1.2310096623439073
+        },
+        {
+          "channel": "LG7",
+          "band": "fr",
+          "count": 2,
+          "rate_per_min": 0.6155048311719536
+        },
+        {
+          "channel": "RG8",
+          "band": "fr",
+          "count": 2,
+          "rate_per_min": 0.6155048311719536
+        },
+        {
+          "channel": "RA2",
+          "band": "fr",
+          "count": 2,
+          "rate_per_min": 0.6155048311719536
+        },
+        {
+          "channel": "LG2",
+          "band": "fr",
+          "count": 1,
+          "rate_per_min": 0.3077524155859768
+        },
+        {
+          "channel": "LG4",
+          "band": "fr",
+          "count": 1,
+          "rate_per_min": 0.3077524155859768
+        },
+        {
+          "channel": "LG5",
+          "band": "fr",
+          "count": 1,
+          "rate_per_min": 0.3077524155859768
+        },
+        {
+          "channel": "RG6",
+          "band": "fr",
+          "count": 1,
+          "rate_per_min": 0.3077524155859768
+        }
+      ],
+      "top_frandr_channels": [
+        {
+          "channel": "RC5",
+          "band": "frandr",
+          "count": 3,
+          "rate_per_min": 0.9232572467579305
+        },
+        {
+          "channel": "LG8",
+          "band": "frandr",
+          "count": 2,
+          "rate_per_min": 0.6155048311719536
+        }
+      ],
+      "fr_area_channels_95p": [
+        "LG8"
+      ],
+      "frandr_area_channels_95p": [
+        "RC5"
+      ]
+    }
+  ],
+  "llm_notes": [
+    "Use only channels present in this JSON.",
+    "Do not infer seizure concordance from HFO data alone.",
+    "Prioritize FRandR and repeated cross-run evidence when discussing salient channels.",
+    "State uncertainty when dominant channels differ across runs."
+  ]
+}

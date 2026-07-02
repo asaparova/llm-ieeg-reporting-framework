@@ -1,0 +1,39 @@
+{
+  "case_assessment": {
+    "supports_patient_level_fusion": true,
+    "direct_channel_concordance_supported": false,
+    "overall_confidence": "limited",
+    "reason_for_confidence": "Seizure channel-level evidence is unavailable, and direct HFO-seizure channel concordance cannot be established."
+  },
+  "hfo_assessment": {
+    "strong_consensus_channels": [
+      "LG8",
+      "RC5"
+    ],
+    "moderate_candidate_channels": [
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "consensus_strength": "strong",
+    "summary": "Strong consensus identified on LG8 and RC5; moderate consensus on RI11, RJ5, LG7, LG5, and LG4."
+  },
+  "seizure_assessment": {
+    "ictal_run_summary": "Ictal run detected with 142 true ictal windows and 178 true nonictal windows.",
+    "interictal_run_summary": "Interictal run shows high false-positive burden with 297 predicted positive windows.",
+    "false_positive_burden": "high",
+    "summary": "Seizure detection has high interictal false-positive burden, limiting confidence in seizure-channel associations."
+  },
+  "integration_assessment": {
+    "can_compare_modalities": true,
+    "can_claim_direct_spatial_overlap": false,
+    "summary": "HFO findings can be compared with seizure run behavior at the subject level, but direct spatial overlap cannot be claimed without seizure channel-level evidence."
+  },
+  "limitations": [
+    "Seizure channel-level evidence is unavailable.",
+    "Direct HFO-seizure channel concordance cannot be established."
+  ],
+  "final_interpretation": "Strong HFO consensus on LG8 and RC5; moderate consensus on RI11, RJ5, LG7, LG5, and LG4. Seizure detection has high interictal false-positive burden, limiting confidence in direct channel associations."
+}

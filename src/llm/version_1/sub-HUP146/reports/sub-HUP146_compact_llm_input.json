@@ -1,0 +1,300 @@
+{
+  "case_id": "sub-HUP146_case_v1",
+  "subject_id": "sub-HUP146",
+  "dataset": "HUP",
+  "system_view": {
+    "supports_patient_level_fusion": true,
+    "hfo_channel_level_available": true,
+    "seizure_channel_level_available": false,
+    "direct_channel_concordance_supported": false,
+    "recommended_interpretation_mode": "limited_unified_reporting",
+    "system_confidence": "limited"
+  },
+  "hfo_summary": {
+    "candidate_channels": [
+      "LG8",
+      "RC5",
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "consensus_strength": "strong",
+    "n_runs": 2,
+    "overall_summary": {
+      "total_epochs_used": 89,
+      "total_ripple_events": 52,
+      "total_fr_events": 246,
+      "total_frandr_pairs": 18,
+      "total_rejected_burst_rows": 0
+    },
+    "consensus_summary": {
+      "n_runs_aggregated": 2,
+      "strong_consensus_channels": [
+        "LG8",
+        "RC5"
+      ],
+      "moderate_consensus_channels": [
+        "RI11",
+        "RJ5",
+        "LG7",
+        "LG5",
+        "LG4"
+      ],
+      "single_run_only_channels": [
+        "LG6",
+        "RI10",
+        "LG3",
+        "RG8",
+        "RA2",
+        "LG2",
+        "RG6"
+      ]
+    },
+    "top_aggregated_channels": [
+      {
+        "channel": "LG8",
+        "fr_rate_mean": 7.17678633146498,
+        "fr_rate_max": 9.121781597968354,
+        "frandr_rate_mean": 1.2679399522142245,
+        "frandr_rate_max": 1.9203750732564955,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [
+          "01",
+          "02"
+        ],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 2,
+        "appears_in_fr_area_95p_runs": 2,
+        "appears_in_frandr_area_95p_runs": 1,
+        "fr_rates_per_run": {
+          "01": 9.121781597968354,
+          "02": 5.231791064961606
+        },
+        "frandr_rates_per_run": {
+          "01": 1.9203750732564955,
+          "02": 0.6155048311719536
+        },
+        "fr_counts_per_run": {
+          "01": 38,
+          "02": 17
+        },
+        "frandr_counts_per_run": {
+          "01": 8,
+          "02": 2
+        }
+      },
+      {
+        "channel": "RC5",
+        "fr_rate_mean": 3.9546185402798026,
+        "fr_rate_max": 4.308533818203676,
+        "frandr_rate_mean": 0.8216989496145581,
+        "frandr_rate_max": 0.9232572467579305,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [
+          "01",
+          "02"
+        ],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 2,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 1,
+        "fr_rates_per_run": {
+          "01": 3.600703262355929,
+          "02": 4.308533818203676
+        },
+        "frandr_rates_per_run": {
+          "01": 0.7201406524711859,
+          "02": 0.9232572467579305
+        },
+        "fr_counts_per_run": {
+          "01": 15,
+          "02": 14
+        },
+        "frandr_counts_per_run": {
+          "01": 3,
+          "02": 3
+        }
+      },
+      {
+        "channel": "RI11",
+        "fr_rate_mean": 5.761125219769487,
+        "fr_rate_max": 5.761125219769487,
+        "frandr_rate_mean": 0.24004688415706193,
+        "frandr_rate_max": 0.24004688415706193,
+        "fr_runs_present": [
+          "01"
+        ],
+        "frandr_runs_present": [
+          "01"
+        ],
+        "appears_in_top_fr_runs": 1,
+        "appears_in_top_frandr_runs": 1,
+        "appears_in_fr_area_95p_runs": 1,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 5.761125219769487
+        },
+        "frandr_rates_per_run": {
+          "01": 0.24004688415706193
+        },
+        "fr_counts_per_run": {
+          "01": 24
+        },
+        "frandr_counts_per_run": {
+          "01": 1
+        }
+      },
+      {
+        "channel": "RJ5",
+        "fr_rate_mean": 2.2958330202713872,
+        "fr_rate_max": 3.3606563781988674,
+        "frandr_rate_mean": 0.24004688415706193,
+        "frandr_rate_max": 0.24004688415706193,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [
+          "01"
+        ],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 1,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 3.3606563781988674,
+          "02": 1.2310096623439073
+        },
+        "frandr_rates_per_run": {
+          "01": 0.24004688415706193
+        },
+        "fr_counts_per_run": {
+          "01": 14,
+          "02": 4
+        },
+        "frandr_counts_per_run": {
+          "01": 1
+        }
+      },
+      {
+        "channel": "LG7",
+        "fr_rate_mean": 2.2281274888424725,
+        "fr_rate_max": 3.840750146512991,
+        "frandr_rate_mean": 0.0,
+        "frandr_rate_max": 0.0,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 0,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 3.840750146512991,
+          "02": 0.6155048311719536
+        },
+        "frandr_rates_per_run": {},
+        "fr_counts_per_run": {
+          "01": 16,
+          "02": 2
+        },
+        "frandr_counts_per_run": {}
+      }
+    ]
+  },
+  "seizure_summary": {
+    "ictal_run": {
+      "run_id": "sub-HUP146_ses-presurgery_task-ictal_acq-seeg_run-03",
+      "task": "ictal",
+      "window_level_summary": {
+        "n_windows": 320,
+        "n_true_ictal_windows": 142,
+        "n_true_nonictal_windows": 178,
+        "n_predicted_positive_windows": 242,
+        "fraction_predicted_positive": 0.75625,
+        "mean_prob_smooth": 0.4498068690299988,
+        "peak_prob_smooth": 0.8326953649520874,
+        "threshold_used": 0.25
+      },
+      "predicted_ictal_present": true,
+      "first_positive_start_sec": 2.0,
+      "last_positive_end_sec": 262.5,
+      "candidate_segments_top3": [
+        {
+          "start_sec": 2.0,
+          "end_sec": 26.0,
+          "duration_sec": 24.0,
+          "n_positive_windows": 20,
+          "mean_prob_smooth": 0.26842269152402876,
+          "peak_prob_smooth": 0.2836087644100189
+        },
+        {
+          "start_sec": 28.0,
+          "end_sec": 37.0,
+          "duration_sec": 9.0,
+          "n_positive_windows": 7,
+          "mean_prob_smooth": 0.25820472836494446,
+          "peak_prob_smooth": 0.26304173469543457
+        },
+        {
+          "start_sec": 38.0,
+          "end_sec": 71.0,
+          "duration_sec": 33.0,
+          "n_positive_windows": 31,
+          "mean_prob_smooth": 0.26499084407283413,
+          "peak_prob_smooth": 0.2881814241409302
+        }
+      ]
+    },
+    "interictal_run": {
+      "run_id": "sub-HUP146_ses-presurgery_task-interictal_acq-seeg_run-02",
+      "task": "interictal",
+      "window_level_summary": {
+        "n_windows": 298,
+        "n_true_ictal_windows": 0,
+        "n_true_nonictal_windows": 298,
+        "n_predicted_positive_windows": 297,
+        "fraction_predicted_positive": 0.9966442953020134,
+        "mean_prob_smooth": 0.3234711289405823,
+        "peak_prob_smooth": 0.36447349190711975,
+        "threshold_used": 0.25
+      },
+      "predicted_ictal_present": true,
+      "first_positive_start_sec": 0.0,
+      "last_positive_end_sec": 299.0,
+      "candidate_segments_top3": [
+        {
+          "start_sec": 0.0,
+          "end_sec": 299.0,
+          "duration_sec": 299.0,
+          "n_positive_windows": 297,
+          "mean_prob_smooth": 0.3239023604176261,
+          "peak_prob_smooth": 0.36447349190711975
+        }
+      ]
+    },
+    "interictal_false_positive_burden": "high"
+  },
+  "integration_constraints": [
+    "Seizure JSON currently does not include channel-level onset or spread evidence.",
+    "Direct HFO-seizure channel concordance cannot be established from the present files.",
+    "The LLM may compare subject-level HFO findings with reserved seizure run behavior, but must not invent seizure onset channels."
+  ],
+  "llm_constraints": [
+    "Use only information explicitly present in this JSON.",
+    "Do not invent channels, seizure onset locations, spread patterns, or concordance.",
+    "Do not claim direct HFO-seizure spatial overlap unless seizure channel-level evidence is present.",
+    "State uncertainty clearly, especially if the interictal false-positive burden is high.",
+    "Differentiate observed data from interpretation."
+  ]
+}
