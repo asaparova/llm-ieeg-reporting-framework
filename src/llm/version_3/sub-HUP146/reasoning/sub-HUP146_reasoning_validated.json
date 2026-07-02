@@ -1,0 +1,48 @@
+{
+  "case_id": "sub-HUP146_case_v3",
+  "subject_id": "sub-HUP146",
+  "overall_confidence": "low",
+  "confidence_rationale": "HFO consensus is strong in LG8 and RC5, but seizure evidence is model-derived saliency proxy with no overlap with HFO channels; the cross-modal mismatch warning further limits confidence.",
+  "hfo_assessment": {
+    "consensus_strength": "strong",
+    "strong_consensus_channels": [
+      "LG8",
+      "RC5"
+    ],
+    "supportive_channels": [
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "summary": "Strong HFO consensus in LG8 and RC5; 52 ripples and 246 fast ripples detected across 89 epochs."
+  },
+  "seizure_assessment": {
+    "ictal_detection_summary": "Two ictal candidate segments detected: 119.0–132.5 sec (13.5 sec duration) and 136.5–199.0 sec (62.5 sec duration), both with high mean and peak smoothed probabilities.",
+    "interictal_behavior_summary": "Low interictal false-positive burden.",
+    "channel_evidence_type": "model-derived saliency proxy",
+    "top_supportive_channels": [
+      "RG1-RG2",
+      "RG2-RG3",
+      "RD3-RD4",
+      "RA2-RA3",
+      "RA1-RA2"
+    ],
+    "summary": "Seizure evidence is model-derived saliency proxy; top supportive channels include RG1-RG2, RG2-RG3, RD3-RD4, RA2-RA3, RA1-RA2."
+  },
+  "integration_assessment": {
+    "concordance_mode": "exact_channel_match",
+    "concordance_level": "none",
+    "overlap_channels": [],
+    "summary": "No direct channel overlap between HFO consensus channels and seizure supportive channels; cross-modal mismatch warning lowers confidence."
+  },
+  "limitations": [
+    "No overlap between HFO consensus channels and seizure supportive channels.",
+    "Seizure evidence is model-derived saliency proxy, not direct electrophysiological detection."
+  ],
+  "ez_hypothesis": {
+    "status": "deferred",
+    "summary": "No concordance between HFO consensus and seizure evidence; hypothesis deferred pending further integration."
+  }
+}

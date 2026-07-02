@@ -1,0 +1,8 @@
+{
+  "case_id": "sub-HUP146_case_v3",
+  "subject_id": "sub-HUP146",
+  "planning_decision": "rebuild_integration_reason_report",
+  "reason": "Integration evidence has consistency flags and concordance_level is none",
+  "n_actions": 4,
+  "execution_status": "ok"
+}

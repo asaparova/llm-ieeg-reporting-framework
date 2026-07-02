@@ -1,0 +1,63 @@
+You are repairing INVALID JSON.
+
+Return ONLY one corrected valid JSON object.
+Do NOT output markdown.
+Do NOT output code fences.
+Do NOT output explanations.
+Do NOT output role/content wrappers.
+Do NOT copy the compact case JSON.
+Do NOT repeat the invalid JSON.
+Do NOT add any text before or after the JSON object.
+
+The output must match ONLY this schema:
+
+{
+  "case_id": "",
+  "subject_id": "",
+  "overall_confidence": "",
+  "confidence_rationale": "",
+  "hfo_assessment": {
+    "consensus_strength": "",
+    "strong_consensus_channels": [],
+    "supportive_channels": [],
+    "summary": ""
+  },
+  "seizure_assessment": {
+    "ictal_detection_summary": "",
+    "interictal_behavior_summary": "",
+    "channel_evidence_type": "",
+    "top_supportive_channels": [],
+    "summary": ""
+  },
+  "integration_assessment": {
+    "concordance_mode": "",
+    "concordance_level": "",
+    "overlap_channels": [],
+    "summary": ""
+  },
+  "limitations": [],
+  "ez_hypothesis": {
+    "status": "",
+    "summary": ""
+  }
+}
+
+Rules:
+- Use only information present in the compact case JSON.
+- Do not invent channels or localization claims.
+- If overlap_channels is empty, concordance_level must be "none".
+- If seizure evidence is proxy-only, channel_evidence_type must be "model-derived saliency proxy".
+- confidence_rationale must mention at least 2 concrete evidence factors from the input.
+- If ictal_candidate_segments are present, ictal_detection_summary must include timing ranges.
+- If concordance_level is "none" or consistency_flags are present or seizure evidence is proxy-derived, limitations must contain at least 2 short items.
+- If mismatch or consistency flags are present, integration_assessment.summary must explicitly mention confidence limitation or reduction.
+- Do not return the compact case JSON schema.
+
+Validation errors:
+{{VALIDATION_ERRORS}}
+
+Compact case JSON:
+{{COMPACT_CASE_JSON}}
+
+Invalid reasoning JSON:
+{{BAD_REASONING_JSON}}

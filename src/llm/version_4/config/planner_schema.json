@@ -1,0 +1,21 @@
+{
+  "required_top_level_keys": [
+    "case_id",
+    "subject_id",
+    "planning_decision",
+    "reason",
+    "actions"
+  ],
+  "planning_decision_allowed": [
+    "no_action",
+    "rebuild_integration_only",
+    "rebuild_integration_and_reason",
+    "rebuild_integration_reason_report"
+  ],
+  "allowed_tool_names": [
+    "rebuild_master_case",
+    "rebuild_compact_case",
+    "run_reasoning",
+    "run_report"
+  ]
+}

@@ -1,0 +1,52 @@
+You are repairing INVALID planner JSON.
+
+Return ONLY one corrected valid JSON object.
+Do NOT output markdown.
+Do NOT output code fences.
+Do NOT output explanations.
+Do NOT output role/content wrappers.
+Do NOT add text before or after the JSON.
+
+The output must match ONLY this schema:
+
+{
+  "case_id": "",
+  "subject_id": "",
+  "planning_decision": "",
+  "reason": "",
+  "actions": [
+    {
+      "step": 1,
+      "tool_name": "",
+      "args": {}
+    }
+  ]
+}
+
+Allowed planning_decision values:
+- "no_action"
+- "rebuild_integration_only"
+- "rebuild_integration_and_reason"
+- "rebuild_integration_reason_report"
+
+Allowed tool_name values:
+- "rebuild_master_case"
+- "rebuild_compact_case"
+- "run_reasoning"
+- "run_report"
+
+Rules:
+- Use only the allowed values.
+- Do not invent tools.
+- steps must be sequential integers starting from 1
+- if actions is empty, planning_decision must be "no_action"
+- if concordance_level is "none" or consistency_flags are present, a valid plan may include rebuilding integration and rerunning reasoning/report.
+
+Validation errors:
+{{VALIDATION_ERRORS}}
+
+Compact case JSON:
+{{COMPACT_CASE_JSON}}
+
+Invalid planner JSON:
+{{BAD_PLANNER_JSON}}

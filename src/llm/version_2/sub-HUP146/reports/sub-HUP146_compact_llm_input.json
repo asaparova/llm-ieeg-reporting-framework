@@ -1,0 +1,423 @@
+{
+  "case_id": "sub-HUP146_case_v2a",
+  "subject_id": "sub-HUP146",
+  "dataset": "HUP",
+  "system_view": {
+    "recommended_interpretation_mode": "channel_level_unified_reporting",
+    "system_confidence": "moderate",
+    "direct_channel_concordance_supported": true
+  },
+  "hfo_summary": {
+    "candidate_channels": [
+      "LG8",
+      "RC5",
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "consensus_strength": "strong",
+    "overall_summary": {
+      "total_epochs_used": 89,
+      "total_ripple_events": 52,
+      "total_fr_events": 246,
+      "total_frandr_pairs": 18,
+      "total_rejected_burst_rows": 0
+    },
+    "top_aggregated_channels": [
+      {
+        "channel": "LG8",
+        "fr_rate_mean": 7.17678633146498,
+        "fr_rate_max": 9.121781597968354,
+        "frandr_rate_mean": 1.2679399522142245,
+        "frandr_rate_max": 1.9203750732564955,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [
+          "01",
+          "02"
+        ],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 2,
+        "appears_in_fr_area_95p_runs": 2,
+        "appears_in_frandr_area_95p_runs": 1,
+        "fr_rates_per_run": {
+          "01": 9.121781597968354,
+          "02": 5.231791064961606
+        },
+        "frandr_rates_per_run": {
+          "01": 1.9203750732564955,
+          "02": 0.6155048311719536
+        },
+        "fr_counts_per_run": {
+          "01": 38,
+          "02": 17
+        },
+        "frandr_counts_per_run": {
+          "01": 8,
+          "02": 2
+        }
+      },
+      {
+        "channel": "RC5",
+        "fr_rate_mean": 3.9546185402798026,
+        "fr_rate_max": 4.308533818203676,
+        "frandr_rate_mean": 0.8216989496145581,
+        "frandr_rate_max": 0.9232572467579305,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [
+          "01",
+          "02"
+        ],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 2,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 1,
+        "fr_rates_per_run": {
+          "01": 3.600703262355929,
+          "02": 4.308533818203676
+        },
+        "frandr_rates_per_run": {
+          "01": 0.7201406524711859,
+          "02": 0.9232572467579305
+        },
+        "fr_counts_per_run": {
+          "01": 15,
+          "02": 14
+        },
+        "frandr_counts_per_run": {
+          "01": 3,
+          "02": 3
+        }
+      },
+      {
+        "channel": "RI11",
+        "fr_rate_mean": 5.761125219769487,
+        "fr_rate_max": 5.761125219769487,
+        "frandr_rate_mean": 0.24004688415706193,
+        "frandr_rate_max": 0.24004688415706193,
+        "fr_runs_present": [
+          "01"
+        ],
+        "frandr_runs_present": [
+          "01"
+        ],
+        "appears_in_top_fr_runs": 1,
+        "appears_in_top_frandr_runs": 1,
+        "appears_in_fr_area_95p_runs": 1,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 5.761125219769487
+        },
+        "frandr_rates_per_run": {
+          "01": 0.24004688415706193
+        },
+        "fr_counts_per_run": {
+          "01": 24
+        },
+        "frandr_counts_per_run": {
+          "01": 1
+        }
+      },
+      {
+        "channel": "RJ5",
+        "fr_rate_mean": 2.2958330202713872,
+        "fr_rate_max": 3.3606563781988674,
+        "frandr_rate_mean": 0.24004688415706193,
+        "frandr_rate_max": 0.24004688415706193,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [
+          "01"
+        ],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 1,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 3.3606563781988674,
+          "02": 1.2310096623439073
+        },
+        "frandr_rates_per_run": {
+          "01": 0.24004688415706193
+        },
+        "fr_counts_per_run": {
+          "01": 14,
+          "02": 4
+        },
+        "frandr_counts_per_run": {
+          "01": 1
+        }
+      },
+      {
+        "channel": "LG7",
+        "fr_rate_mean": 2.2281274888424725,
+        "fr_rate_max": 3.840750146512991,
+        "frandr_rate_mean": 0.0,
+        "frandr_rate_max": 0.0,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 0,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 3.840750146512991,
+          "02": 0.6155048311719536
+        },
+        "frandr_rates_per_run": {},
+        "fr_counts_per_run": {
+          "01": 16,
+          "02": 2
+        },
+        "frandr_counts_per_run": {}
+      },
+      {
+        "channel": "LG5",
+        "fr_rate_mean": 1.5941575127353602,
+        "fr_rate_max": 2.8805626098847434,
+        "frandr_rate_mean": 0.0,
+        "frandr_rate_max": 0.0,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 0,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 2.8805626098847434,
+          "02": 0.3077524155859768
+        },
+        "frandr_rates_per_run": {},
+        "fr_counts_per_run": {
+          "01": 12,
+          "02": 1
+        },
+        "frandr_counts_per_run": {}
+      },
+      {
+        "channel": "LG4",
+        "fr_rate_mean": 0.9940403023427052,
+        "fr_rate_max": 1.6803281890994337,
+        "frandr_rate_mean": 0.0,
+        "frandr_rate_max": 0.0,
+        "fr_runs_present": [
+          "01",
+          "02"
+        ],
+        "frandr_runs_present": [],
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 0,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 1.6803281890994337,
+          "02": 0.3077524155859768
+        },
+        "frandr_rates_per_run": {},
+        "fr_counts_per_run": {
+          "01": 7,
+          "02": 1
+        },
+        "frandr_counts_per_run": {}
+      },
+      {
+        "channel": "LG6",
+        "fr_rate_mean": 1.9203750732564955,
+        "fr_rate_max": 1.9203750732564955,
+        "frandr_rate_mean": 0.0,
+        "frandr_rate_max": 0.0,
+        "fr_runs_present": [
+          "01"
+        ],
+        "frandr_runs_present": [],
+        "appears_in_top_fr_runs": 1,
+        "appears_in_top_frandr_runs": 0,
+        "appears_in_fr_area_95p_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0,
+        "fr_rates_per_run": {
+          "01": 1.9203750732564955
+        },
+        "frandr_rates_per_run": {},
+        "fr_counts_per_run": {
+          "01": 8
+        },
+        "frandr_counts_per_run": {}
+      }
+    ]
+  },
+  "seizure_summary": {
+    "ictal_run": {
+      "run_id": "sub-HUP146_ses-presurgery_task-ictal_acq-seeg_run-03",
+      "window_level_summary": {
+        "n_windows": 347,
+        "n_true_ictal_windows": 166,
+        "n_true_nonictal_windows": 181,
+        "n_predicted_positive_windows": 142,
+        "fraction_predicted_positive": 0.4092219020172911,
+        "mean_prob_smooth": 0.5425263047218323,
+        "peak_prob_smooth": 0.9087821841239929,
+        "threshold_used": 0.8
+      },
+      "candidate_segments_top3": [
+        {
+          "start_sec": 119.0,
+          "end_sec": 132.5,
+          "duration_sec": 13.5,
+          "n_positive_windows": 22,
+          "mean_prob_smooth": 0.8519133844158866,
+          "peak_prob_smooth": 0.8839560747146606
+        },
+        {
+          "start_sec": 136.5,
+          "end_sec": 199.0,
+          "duration_sec": 62.5,
+          "n_positive_windows": 120,
+          "mean_prob_smooth": 0.8665644203623136,
+          "peak_prob_smooth": 0.9087821841239929
+        }
+      ],
+      "channel_level_method": "gradient_x_input_saliency_proxy",
+      "early_ictal_channels_top5": [
+        {
+          "model_channel": "CH058",
+          "channel": "RG1-RG2",
+          "early_window_hits": 3
+        },
+        {
+          "model_channel": "CH060",
+          "channel": "RG3-RG4",
+          "early_window_hits": 3
+        },
+        {
+          "model_channel": "CH065",
+          "channel": "RH1-RH2",
+          "early_window_hits": 3
+        },
+        {
+          "model_channel": "CH059",
+          "channel": "RG2-RG3",
+          "early_window_hits": 2
+        },
+        {
+          "model_channel": "CH062",
+          "channel": "RG5-RG6",
+          "early_window_hits": 2
+        }
+      ],
+      "channel_onset_scores_top5": [
+        {
+          "model_channel": "CH058",
+          "channel": "RG1-RG2",
+          "mean_saliency": 0.05257202684879303,
+          "supporting_positive_windows": 54
+        },
+        {
+          "model_channel": "CH059",
+          "channel": "RG2-RG3",
+          "mean_saliency": 0.040015656501054764,
+          "supporting_positive_windows": 34
+        },
+        {
+          "model_channel": "CH042",
+          "channel": "RD3-RD4",
+          "mean_saliency": 0.029375240206718445,
+          "supporting_positive_windows": 58
+        },
+        {
+          "model_channel": "CH016",
+          "channel": "RA2-RA3",
+          "mean_saliency": 0.02861533686518669,
+          "supporting_positive_windows": 51
+        },
+        {
+          "model_channel": "CH015",
+          "channel": "RA1-RA2",
+          "mean_saliency": 0.028235431760549545,
+          "supporting_positive_windows": 49
+        }
+      ]
+    },
+    "interictal_run": {
+      "run_id": "sub-HUP146_ses-presurgery_task-interictal_acq-seeg_run-02",
+      "window_level_summary": {
+        "n_windows": 298,
+        "n_true_ictal_windows": 0,
+        "n_true_nonictal_windows": 298,
+        "n_predicted_positive_windows": 0,
+        "fraction_predicted_positive": 0.0,
+        "mean_prob_smooth": 0.25022032856941223,
+        "peak_prob_smooth": 0.30402469635009766,
+        "threshold_used": 0.8
+      },
+      "candidate_segments_top3": []
+    },
+    "interictal_false_positive_burden": "low"
+  },
+  "deterministic_integration": {
+    "channel_concordance": {
+      "hfo_candidate_channels": [
+        "LG8",
+        "RC5",
+        "RI11",
+        "RJ5",
+        "LG7",
+        "LG5",
+        "LG4"
+      ],
+      "seizure_candidate_channels": [
+        "RG1-RG2",
+        "RG3-RG4",
+        "RH1-RH2",
+        "RG2-RG3",
+        "RG5-RG6",
+        "RG4-RG5",
+        "RI5-RI6",
+        "RD3-RD4",
+        "RA2-RA3",
+        "RA1-RA2"
+      ],
+      "overlap_channels": [],
+      "overlap_count": 0,
+      "concordance_level": "none",
+      "channel_scores": [],
+      "summary": "No direct overlap between current HFO candidate channels and seizure saliency proxy channels."
+    },
+    "consistency_checks": {
+      "flags": [
+        {
+          "severity": "warning",
+          "code": "cross_modal_mismatch",
+          "message": "Strong or moderate HFO evidence is present, but no direct overlap with seizure channel saliency proxy channels was found."
+        }
+      ],
+      "overall_consistency": "cautious",
+      "integration_confidence": "moderate"
+    }
+  },
+  "integration_constraints": [
+    "Seizure channel-level evidence is a saliency proxy, not direct electrophysiological onset annotation.",
+    "Direct HFO-seizure overlap can be discussed only at the level of supportive concordance, not definitive localization.",
+    "Observed disagreement between modalities should lower confidence rather than be forced into a single conclusion."
+  ],
+  "llm_constraints": [
+    "Use only information explicitly present in this JSON.",
+    "Do not invent channels, seizure onset locations, spread patterns, concordance, diagnoses, or outcomes.",
+    "If seizure channel evidence is based on saliency proxy, describe it as supportive model-derived evidence.",
+    "Differentiate observed data, deterministic fusion outputs, and clinical-style interpretation."
+  ]
+}

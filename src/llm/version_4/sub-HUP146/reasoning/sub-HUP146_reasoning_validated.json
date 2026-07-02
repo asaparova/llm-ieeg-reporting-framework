@@ -1,0 +1,50 @@
+{
+  "case_id": "sub-HUP146_case_v3",
+  "subject_id": "sub-HUP146",
+  "overall_confidence": "moderate",
+  "confidence_rationale": "Strong HFO consensus on LG8 and RC5, and ictal detection with high peak probability in two segments (119-132.5s and 136.5-199s) support confidence. However, cross-modal mismatch warning limits integration confidence.",
+  "hfo_assessment": {
+    "consensus_strength": "strong",
+    "strong_consensus_channels": [
+      "LG8",
+      "RC5"
+    ],
+    "supportive_channels": [
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "summary": "High HFO activity with 246 total FR events and 18 FR+DR pairs detected across 89 epochs."
+  },
+  "seizure_assessment": {
+    "ictal_detection_summary": "Two ictal segments detected at 119-132.5s (22 positive windows, 0.88 peak prob) and 136.5-199s (120 positive windows, 0.91 peak prob).",
+    "interictal_behavior_summary": "Low interictal false-positive burden.",
+    "channel_evidence_type": "model-derived saliency proxy",
+    "top_supportive_channels": [
+      "RG1-RG2",
+      "RG2-RG3",
+      "RD3-RD4",
+      "RA2-RA3",
+      "RA1-RA2"
+    ],
+    "summary": "Seizure evidence supported by model-derived saliency proxy with top channels showing high ictal probability."
+  },
+  "integration_assessment": {
+    "concordance_mode": "exact_channel_match",
+    "concordance_level": "none",
+    "overlap_channels": [],
+    "summary": "Cross-modal mismatch warning indicates no direct overlap between HFO and seizure supportive channels, limiting integration confidence."
+  },
+  "limitations": [
+    "Cross-modal mismatch warning present",
+    "No exact channel overlap for integration",
+    "Seizure channel evidence is model-derived saliency proxy rather than direct electrophysiological localization.",
+    "No direct cross-modal overlap was identified between HFO and seizure supportive channels."
+  ],
+  "ez_hypothesis": {
+    "status": "deferred",
+    "summary": "Insufficient channel overlap to determine epileptogenic zone hypothesis."
+  }
+}

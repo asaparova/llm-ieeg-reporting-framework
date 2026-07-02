@@ -1,0 +1,22 @@
+**Analysis Summary:**  
+The provided JSON outlines HFO (high-frequency oscillation) candidate channels and seizure-related saliency proxy channels, with no direct overlap between the two sets. Key findings include:  
+
+1. **HFO Candidate Channels:**  
+   - Identified as `LG8`, `RC5`, `RI11`, `RJ5`, `LG7`, `LG5`, `LG4` with metrics like mean probability (`mean_prob_smooth`) and peak probability (`peak_prob_smooth`).  
+   - These channels show moderate to strong HFO evidence but lack direct alignment with seizure-related saliency proxy channels.  
+
+2. **Seizure Saliency Proxy Channels:**  
+   - Highlighted as `RG1-RG2`, `RG3-RG4`, `RH1-RH2`, etc., with early window hits and mean saliency scores.  
+   - These channels are tied to seizure onset via gradient-based saliency proxies, not direct electrophysiological annotations.  
+
+3. **Deterministic Integration Results:**  
+   - **No Overlap:** The `hfo_candidate_channels` and `seizure_candidate_channels` share no common channels (`overlap_count`: 0).  
+   - **Concordance Level:** "None," indicating no direct electrophysiological overlap.  
+   - **Consistency Flags:** A "cross_modal_mismatch" warning is raised, emphasizing the absence of direct HFO-seizure channel alignment.  
+
+4. **Integration Constraints:**  
+   - Seizure evidence is based on supportive model-derived saliency proxies, not definitive localization.  
+   - Disagreements between modalities (HFO vs. seizure onset) should not be forced into a single conclusion but instead noted as cautious.  
+
+**Conclusion:**  
+The analysis identifies supportive model-derived evidence for HFOs and seizure saliency proxies but highlights no direct electrophysiological overlap. The lack of concordance suggests the need for further investigation into indirect associations or alternative explanations, adhering strictly to the observed data without speculative conclusions.

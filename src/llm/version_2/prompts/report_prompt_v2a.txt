@@ -1,0 +1,30 @@
+You are writing a concise technical report for a multimodal epilepsy analysis case.
+
+Use ONLY the provided compact case JSON and reasoning JSON.
+Do NOT invent any clinical conclusion beyond the provided evidence.
+Do NOT claim true seizure onset localization.
+If seizure channel evidence is model-derived saliency-proxy evidence, say so explicitly.
+
+Write the report in clear technical prose with these sections and exactly these headings:
+
+Case overview
+HFO findings
+Seizure findings
+Cross-modal integration
+Limitations and confidence
+Final impression
+
+Writing rules:
+- Keep the report concise.
+- Prefer real channel names exactly as given.
+- Separate observation from interpretation.
+- If HFO and seizure channels do not overlap, say so explicitly.
+- If confidence is moderate or limited, explain why in one sentence.
+- Do not recommend surgery or make treatment decisions.
+- Do not use bullet lists unless necessary.
+
+Compact JSON:
+{{COMPACT_INPUT_JSON}}
+
+Reasoning JSON:
+{{REASONING_JSON}}

@@ -1,0 +1,59 @@
+{
+  "events": [
+    {
+      "step": 1,
+      "tool_name": "rebuild_master_case",
+      "args": {},
+      "status": "ok",
+      "result": {
+        "status": "ok",
+        "tool_name": "rebuild_master_case",
+        "output_path": "sub-HUP146\\integration\\sub-HUP146_master_case.json"
+      }
+    },
+    {
+      "step": 2,
+      "tool_name": "rebuild_compact_case",
+      "args": {},
+      "status": "ok",
+      "result": {
+        "status": "ok",
+        "tool_name": "rebuild_compact_case",
+        "output_path": "sub-HUP146\\integration\\sub-HUP146_compact_case.json"
+      }
+    },
+    {
+      "step": 3,
+      "tool_name": "run_reasoning",
+      "args": {},
+      "status": "ok",
+      "result": {
+        "status": "ok",
+        "tool_name": "run_reasoning",
+        "output_path": "sub-HUP146\\reasoning\\sub-HUP146_reasoning_validated.json",
+        "reasoning_keys": [
+          "case_id",
+          "subject_id",
+          "overall_confidence",
+          "confidence_rationale",
+          "hfo_assessment",
+          "seizure_assessment",
+          "integration_assessment",
+          "limitations",
+          "ez_hypothesis"
+        ]
+      }
+    },
+    {
+      "step": 4,
+      "tool_name": "run_report",
+      "args": {},
+      "status": "ok",
+      "result": {
+        "status": "ok",
+        "tool_name": "run_report",
+        "output_path": "sub-HUP146\\reports\\sub-HUP146_final_report.txt"
+      }
+    }
+  ]
+}

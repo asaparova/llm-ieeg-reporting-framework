@@ -1,0 +1,56 @@
+{
+  "required_top_level_keys": [
+    "case_id",
+    "subject_id",
+    "overall_confidence",
+    "confidence_rationale",
+    "hfo_assessment",
+    "seizure_assessment",
+    "integration_assessment",
+    "limitations",
+    "ez_hypothesis"
+  ],
+  "overall_confidence_allowed": ["low", "limited", "moderate", "high"],
+  "concordance_level_allowed": ["none", "limited", "moderate", "strong"],
+  "channel_evidence_type_allowed": [
+    "model-derived saliency proxy",
+    "direct electrophysiological summary",
+    "unknown"
+  ],
+  "ez_status_allowed": ["supported", "provisional", "deferred", "not_supported"],
+  "required_hfo_keys": [
+    "consensus_strength",
+    "strong_consensus_channels",
+    "supportive_channels",
+    "summary"
+  ],
+  "required_seizure_keys": [
+    "ictal_detection_summary",
+    "interictal_behavior_summary",
+    "channel_evidence_type",
+    "top_supportive_channels",
+    "summary"
+  ],
+  "required_integration_keys": [
+    "concordance_mode",
+    "concordance_level",
+    "overlap_channels",
+    "summary"
+  ],
+  "required_ez_keys": [
+    "status",
+    "summary"
+  ],
+  "confidence_rationale_required_evidence_terms": [
+    "hfo",
+    "consensus",
+    "ictal",
+    "interictal",
+    "false positive",
+    "proxy",
+    "overlap",
+    "concordance",
+    "mismatch",
+    "warning"
+  ]
+}

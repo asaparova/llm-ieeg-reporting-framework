@@ -1,0 +1,135 @@
+{
+  "case_id": "sub-HUP146_case_v3",
+  "subject_id": "sub-HUP146",
+  "dataset": "HUP",
+  "integration_mode": "exact_channel_match",
+  "system_confidence_seed": "moderate",
+  "hfo_evidence": {
+    "consensus_strength": "strong",
+    "strong_consensus_channels": [
+      "LG8",
+      "RC5"
+    ],
+    "supportive_channels": [
+      "RI11",
+      "RJ5",
+      "LG7",
+      "LG5",
+      "LG4"
+    ],
+    "overall_summary": {
+      "total_epochs_used": 89,
+      "total_ripple_events": 52,
+      "total_fr_events": 246,
+      "total_frandr_pairs": 18
+    },
+    "top_aggregated_channels": [
+      {
+        "channel": "LG8",
+        "fr_rate_mean": 7.17678633146498,
+        "frandr_rate_mean": 1.2679399522142245,
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 2,
+        "appears_in_frandr_area_95p_runs": 1
+      },
+      {
+        "channel": "RC5",
+        "fr_rate_mean": 3.9546185402798026,
+        "frandr_rate_mean": 0.8216989496145581,
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 2,
+        "appears_in_frandr_area_95p_runs": 1
+      },
+      {
+        "channel": "RI11",
+        "fr_rate_mean": 5.761125219769487,
+        "frandr_rate_mean": 0.24004688415706193,
+        "appears_in_top_fr_runs": 1,
+        "appears_in_top_frandr_runs": 1,
+        "appears_in_frandr_area_95p_runs": 0
+      },
+      {
+        "channel": "RJ5",
+        "fr_rate_mean": 2.2958330202713872,
+        "frandr_rate_mean": 0.24004688415706193,
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 1,
+        "appears_in_frandr_area_95p_runs": 0
+      },
+      {
+        "channel": "LG7",
+        "fr_rate_mean": 2.2281274888424725,
+        "frandr_rate_mean": 0.0,
+        "appears_in_top_fr_runs": 2,
+        "appears_in_top_frandr_runs": 0,
+        "appears_in_frandr_area_95p_runs": 0
+      }
+    ]
+  },
+  "seizure_evidence": {
+    "ictal_detected": true,
+    "ictal_candidate_segments": [
+      {
+        "start_sec": 119.0,
+        "end_sec": 132.5,
+        "duration_sec": 13.5,
+        "n_positive_windows": 22,
+        "mean_prob_smooth": 0.8522585196928545,
+        "peak_prob_smooth": 0.8841578960418701
+      },
+      {
+        "start_sec": 136.5,
+        "end_sec": 199.0,
+        "duration_sec": 62.5,
+        "n_positive_windows": 120,
+        "mean_prob_smooth": 0.8672030394275984,
+        "peak_prob_smooth": 0.9091953039169312
+      }
+    ],
+    "interictal_false_positive_burden": "low",
+    "channel_evidence_type": "model-derived saliency proxy",
+    "top_supportive_channels": [
+      "RG1-RG2",
+      "RG2-RG3",
+      "RD3-RD4",
+      "RA2-RA3",
+      "RA1-RA2"
+    ],
+    "ictal_run_id": "sub-HUP146_ses-presurgery_task-ictal_acq-seeg_run-03",
+    "interictal_run_id": "sub-HUP146_ses-presurgery_task-interictal_acq-seeg_run-02"
+  },
+  "integration_evidence": {
+    "concordance_mode": "exact_channel_match",
+    "concordance_level": "none",
+    "overlap_channels": [],
+    "consistency_flags": [
+      {
+        "severity": "warning",
+        "code": "cross_modal_mismatch",
+        "message": "Strong or moderate HFO evidence is present, but no direct overlap with seizure supportive channels was found under exact matching."
+      }
+    ]
+  },
+  "allowed_channels": [
+    "LG8",
+    "RC5",
+    "RI11",
+    "RJ5",
+    "LG7",
+    "LG5",
+    "LG4",
+    "RG1-RG2",
+    "RG2-RG3",
+    "RD3-RD4",
+    "RA2-RA3",
+    "RA1-RA2"
+  ],
+  "llm_constraints": [
+    "Use only information explicitly present in this JSON.",
+    "Do not copy this input JSON structure into the answer.",
+    "Return only the target reasoning JSON schema.",
+    "Do not invent channel names or localization claims.",
+    "Treat seizure channel evidence as supportive saliency-proxy evidence.",
+    "If overlap_channels is empty, concordance_level must be none."
+  ]
+}
