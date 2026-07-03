@@ -52,12 +52,8 @@ Recommended format:
 
 ## Processed Data
 
-The HUP dataset for HFO detection takes 13 Gb and processed OpenNeuro ds003498 dataet takes 78 Gb of storage, so I did not manage to add it to the free storage in cloud. You can run the pre-processing scripts to reproduce the results
+The processed HUP dataset for HFO detection takes 13 Gb, processed SWEC ETHZ dataset takes 21 Gb and processed OpenNeuro ds003498 dataet takes 78 Gb of storage, so I did not manage to add it to the free storage in cloud. You can run the pre-processing scripts to reproduce the results
 
-### Processed SWEC-ETHZ Files
-
-- Link: <ADD_LINK_HERE>
-- Description: Preprocessed files used for seizure detection experiments
 
 ### Processed HUP Files (for HFO detection)
 
