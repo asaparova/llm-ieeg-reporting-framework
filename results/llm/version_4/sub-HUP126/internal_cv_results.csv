@@ -1,0 +1,4 @@
+subject_id,fold_id,held_out_run,val_run,best_threshold,train_n_after_retention,test_acc,test_balanced_acc,test_precision,test_recall,test_f1,test_auroc,test_auprc,test_tn,test_fp,test_fn,test_tp
+sub-HUP126,0,sub-HUP126_ses-presurgery_task-ictal_acq-ecog_run-01,sub-HUP126_ses-presurgery_task-ictal_acq-ecog_run-03,0.45,158,0.9956331877729258,0.9972375690607735,0.9795918367346939,1.0,0.9896907216494846,1.0,1.0,180,1,0,48
+sub-HUP126,1,sub-HUP126_ses-presurgery_task-ictal_acq-ecog_run-02,sub-HUP126_ses-presurgery_task-ictal_acq-ecog_run-01,0.2,156,0.9916317991631799,0.9827586206896552,1.0,0.9655172413793104,0.9824561403508771,0.9999047437607164,0.9997077732320283,181,0,2,56
+sub-HUP126,2,sub-HUP126_ses-presurgery_task-ictal_acq-ecog_run-03,sub-HUP126_ses-presurgery_task-ictal_acq-ecog_run-01,0.45,158,0.9831223628691983,0.982784135753749,0.9482758620689655,0.9821428571428571,0.9649122807017544,0.999408050513023,0.9981829573934838,178,3,1,55
