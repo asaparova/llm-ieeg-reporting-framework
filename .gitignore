@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ML / deep learning model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Keep the final small thesis checkpoint for reproducibility
+!models/final_model.pt
