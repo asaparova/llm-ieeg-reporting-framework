@@ -38,43 +38,32 @@ Recommended format:
 ### OpenNeuro ds003498
 
 - Source: https://openneuro.org/datasets/ds003498/versions/1.1.1
-- Access notes: <ADD_ACCESS_NOTES_HERE>
 - Used for: Initial HFO detection experiments
 
 ### SWEC-ETHZ
 
 - Source: http://ieeg-swez.ethz.ch/
-- Access notes: <ADD_ACCESS_NOTES_HERE>
 - Used for: Initial seizure detection experiments
 
 ### HUP Dataset
 
-- Source: [<ADD_RESTRICTED_LINK_HERE>](https://openneuro.org/datasets/ds004100/versions/1.1.1)
-- Access notes: <ADD_ACCESS_NOTES_HERE>
+- Source: https://openneuro.org/datasets/ds004100/versions/1.1.1
 - Used for: Final HFO detection, seizure detection, and LLM case studies
 
 ## Processed Data
 
-### Processed OpenNeuro Files
-
-- Link: <ADD_LINK_HERE>
-- Description: Preprocessed files used for initial HFO detection experiments
+The HUP dataset for HFO detection takes 13 Gb and processed OpenNeuro ds003498 dataet takes 78 Gb of storage, so I did not manage to add it to the free storage in cloud. You can run the pre-processing scripts to reproduce the results
 
 ### Processed SWEC-ETHZ Files
 
 - Link: <ADD_LINK_HERE>
 - Description: Preprocessed files used for seizure detection experiments
 
-### Processed HUP Files
+### Processed HUP Files (for HFO detection)
 
-- Link: <ADD_LINK_HERE>
-- Description: Preprocessed HUP files used for final HFO and seizure branches
+- Link: https://drive.google.com/file/d/1lebSnyId6PRgI7X9LmePVv7GfE79OxDZ/view?usp=drive_link
+- Description: Preprocessed HUP files used for final HFO branch
 
-## LLM Input JSON Files
-
-- Link: <ADD_LINK_HERE>
-- Description: HFO and seizure JSON summaries used as input for the LLM reporting module
-```
 
 ---
 
