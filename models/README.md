@@ -9,4 +9,4 @@ This folder contains the final trained model checkpoint used in the thesis proje
 The final seizure-detection model checkpoint is included in this repository:
 
 ```text
-models/checkpoints/final.pt
+models/final.pt
