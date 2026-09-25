@@ -463,14 +463,3 @@ This repository contains research code and reproducibility materials associated 
 A formal citation will be added following publication.
 ---
 
-## License
-
-This repository is not released under an open-source license.
-
-See:
-
-```text
-LICENSE.md
-```
-
-for permitted use, attribution requirements, publication expectations, and restrictions.
