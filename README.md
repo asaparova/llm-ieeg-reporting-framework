@@ -66,14 +66,6 @@ Expected external datasets:
 
 Contains project documentation and reproduction instructions.
 
-Expected files may include:
-
-```text
-docs/reproduction_guide.md
-docs/project_overview.md
-docs/methodology_mapping.md
-```
-
 The main reproduction instructions should be placed in:
 
 ```text
