@@ -1,8 +1,8 @@
 # Data
 
-This folder documents the datasets and derived data files used in the thesis project:
+This folder documents the datasets and derived data files used in the study:
 
-**Automatic Generation of Text-Based Summaries of Intracranial EEG Seizure Events Using Large Language Models (LLMs)**
+**Constraining the Language Model: A Schema-Validated Framework for Automated Structured Reporting of Intracranial EEG in Presurgical Epilepsy Evaluation.**
 
 Raw and processed datasets are **not stored directly in this GitHub repository** because they are large and may be subject to dataset access restrictions.
 
