@@ -223,5 +223,5 @@ __marimo__/
 *.ckpt
 *.onnx
 
-# Keep the final small thesis checkpoint for reproducibility
+# Keep the final selected checkpoint for reproducibility
 !models/final_model.pt
