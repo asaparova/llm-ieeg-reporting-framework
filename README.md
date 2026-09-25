@@ -31,7 +31,7 @@ The LLM does not analyze raw iEEG recordings directly. Instead, it operates on s
 ## Repository Structure
 
 ```text
-Master-Thesis/
+llm-ieeg-reporting-framework/
   data/
   docs/
   models/
@@ -400,7 +400,7 @@ Steps:
 5. Run seizure detection.
 6. Generate structured JSON summaries.
 7. Run LLM reporting.
-8. Compare generated results with thesis tables, figures, and reports.
+8. Compare generated results with the reference outputs included in the repository.
 
 See detailed instructions:
 
@@ -454,16 +454,13 @@ The final small model checkpoint `models/final.pt` is intentionally included for
 
 ---
 
-## Citation
+## Publication
 
-If you use this code, notebooks, prompts, schemas, generated reports, results, model checkpoint, or documentation, please cite:
+This repository contains research code and reproducibility materials associated with the manuscript:
 
-```text
-Azhar Saparova.
-Automatic Generation of Text-Based Summaries of Intracranial EEG Seizure Events Using Large Language Models (LLMs).
-MSc Thesis, Nazarbayev University, 2026.
-```
+**“Constraining the Language Model: A Schema-Validated Framework for Automated Structured Reporting of Intracranial EEG in Presurgical Epilepsy Evaluation.”**
 
+A formal citation will be added following publication.
 ---
 
 ## License
