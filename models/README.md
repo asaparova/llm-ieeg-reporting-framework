@@ -1,6 +1,8 @@
 # Models
 
-This folder contains the final trained model checkpoint used in the thesis project.
+This folder contains the final trained model checkpoint used in in the study:
+
+Constraining the Language Model: A Schema-Validated Framework for Automated Structured Reporting of Intracranial EEG in Presurgical Epilepsy Evaluation.
 
 ---
 
