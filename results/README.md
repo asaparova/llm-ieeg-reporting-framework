@@ -20,4 +20,3 @@ results/
       all_internal_cv_results.xlsx
       all_llm_reserved_results.xlsx
       cross_subject_summary.xlsx
-      llm_cohort_manifest.xlsx
