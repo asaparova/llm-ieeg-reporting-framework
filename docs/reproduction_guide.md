@@ -519,7 +519,7 @@ Run the project in this order:
 8. Evaluate seizure detection.
 9. Export seizure summary JSON.
 10. Run the LLM reporting pipeline.
-11. Compare generated outputs with thesis figures and tables.
+11. Compare generated outputs with the reference results reported in the manuscript and included in this repository.
 
 ---
 
@@ -741,15 +741,3 @@ src/llm/version_X/sub-HUPXXX/
 ```
 
 ---
-
-# Authorship and Citation
-
-Unless explicitly stated otherwise, all original code, prompts, schemas, reports, figures, and documentation were developed by **Azhar Saparova** as part of the MSc thesis project.
-
-Any reuse of this repository, code, prompts, schemas, outputs, or reports should properly credit:
-
-```text
-Azhar Saparova.
-Automatic Generation of Text-Based Summaries of Intracranial EEG Seizure Events Using Large Language Models (LLMs).
-MSc Thesis, Nazarbayev University, 2026.
-```
