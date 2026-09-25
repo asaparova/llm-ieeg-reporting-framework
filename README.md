@@ -38,7 +38,6 @@ llm-ieeg-reporting-framework/
   results/
   src/
   .gitignore
-  LICENSE.md
   README.md
 ```
 
