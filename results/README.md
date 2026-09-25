@@ -1,6 +1,8 @@
 # Results
 
-This folder contains selected derived results from the thesis experiments.
+This folder contains selected derived results from the study:
+
+Constraining the Language Model: A Schema-Validated Framework for Automated Structured Reporting of Intracranial EEG in Presurgical Epilepsy Evaluation.
 
 Large files, raw datasets, processed biomedical recordings, and trained model checkpoints are not stored in this repository.
 
