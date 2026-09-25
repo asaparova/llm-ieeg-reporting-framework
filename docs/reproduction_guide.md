@@ -1,11 +1,10 @@
 # Reproduction Guide
 
-This document describes how to reproduce the main thesis outputs for the project:
+This document describes how to reproduce the main outputs for the work:
 
-**Automatic Generation of Text-Based Summaries of Intracranial EEG Seizure Events Using Large Language Models (LLMs)**
+“Constraining the Language Model: A Schema-Validated Framework for Automated Structured Reporting of Intracranial EEG in Presurgical Epilepsy Evaluation.”
 
-Author: **Azhar Saparova**  
-Thesis: MSc Robotics, Nazarbayev University, 2026  
+Authors: **Azhar Saparova, Berdakh Abibullaev**  
 
 ---
 
@@ -74,8 +73,8 @@ Use this level to reproduce:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/asaparova/Master-Thesis.git
-cd Master-Thesis
+git clone https://github.com/asaparova/llm-ieeg-reporting-framework.git
+cd llm-ieeg-reporting-framework
 ```
 
 If the repository is private, make sure that the user has been granted access.
