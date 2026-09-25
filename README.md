@@ -428,7 +428,7 @@ ollama serve
 
 ## Important Notes
 
-This repository is intended as a thesis handover and research-continuation package.
+This repository provides research code, derived results, and reproducibility materials associated with the submitted manuscript.
 
 Do not commit:
 
